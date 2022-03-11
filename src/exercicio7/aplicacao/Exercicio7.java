@@ -12,8 +12,8 @@ import exercicio7.entidades.Vendedor;
 
 public class Exercicio7 {
     public static void main(String[] args) {
-        Gerente gerente = new Gerente("Etiene", 26, 10000);
-        Supervisor supervisor = new Supervisor("Alan", 29, 10000);
+        Gerente gerente = new Gerente("Etiene", 26, 12000);
+        Supervisor supervisor = new Supervisor("João", 31, 10000);
         Vendedor vendedor = new Vendedor("José", 28, 5000);
 
         System.out.println(gerente);
